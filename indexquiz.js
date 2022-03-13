@@ -120,5 +120,5 @@ function nextquest(){
 }
 
 restart.addEventListener('click',()=>{
-  window.location='/'
+  window.location='./'
 })
