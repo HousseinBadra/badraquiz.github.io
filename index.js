@@ -19,7 +19,7 @@ myarr.forEach((elem)=>{
     return Math.random()-0.5
   })
 })
-export function getquestions(){
+ function getquestions(){
   return myarr
 }
 
