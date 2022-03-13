@@ -58,11 +58,11 @@ function control(){
  options=Array.from(document.querySelectorAll('.awnsers div'));
 
  if(!next.classList.contains('show') && !restart.classList.contains('show')){ next.classList.add('show')}
- 
+ if(!restart.classList.contains('show'){
  options.forEach((elem)=>{
    elem.classList.remove('green')
    elem.classList.remove('red')
- })
+ })}
   if(event.target.classList.contains('true')){
     if(index==getquestions().length-1){
          document.body.classList.remove('red')
