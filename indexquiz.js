@@ -57,7 +57,7 @@ array['options'].forEach((elem,index)=>{
 function control(){
  options=Array.from(document.querySelectorAll('.awnsers div'));
 
- if(!next.classList.contains('show')){ next.classList.add('show')}
+ if(!next.classList.contains('show') && !restart.classList.contains('show')){ next.classList.add('show')}
  
  options.forEach((elem)=>{
    elem.classList.remove('green')
