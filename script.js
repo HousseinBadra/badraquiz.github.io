@@ -1,6 +1,6 @@
 let myarr=[
     {'question':'My best friend?',
-    'options':[{'option':' Hasan','class':'true'},{'option':'Joe','class':'true'},{'option':'Ali OZ','class':'true'} ,{'option':'Abdo','class':'true'}] },  {'question':'Best hobbie?',
+    'options':[{'option':' Hasan','class':'true'},{'option':'Joe','class':'true'},{'option':'Ali OZ','class':'true'} ,{'option':'Halouba','class':'true'}] },  {'question':'Best hobbie?',
     'options':[{'option':'chess','class':'true'},{'option':'Fitness','class':'false'},{'option':'coding','class':'false'} ,{'option':'BasketBall','class':'false'}] },
     {'question':'Where I live?',
     'options':[{'option':'Rayak','class':'false'},{'option':'Terboul','class':'false'},{'option':'Ali al nahri','class':'true'},{'option':'Tamnin','class':'false'} ] },
